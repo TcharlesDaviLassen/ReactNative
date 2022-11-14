@@ -1,0 +1,11 @@
+GET http://177.44.248.60/users
+Content-Type: 'application/json'
+
+# corpo da requisicao exmplo =
+{
+    "id": 3
+}
+
+###
+
+POST  http://177.44.248.60/users
