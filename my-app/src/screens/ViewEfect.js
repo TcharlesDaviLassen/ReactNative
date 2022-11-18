@@ -41,9 +41,9 @@ const ViewEfect = () => {
                 onPress={() => setCount(count + 1)}
             >
                 <Text style={styles.textButton}>Clique aqui</Text>
-                <CustomButton label={'Custom Button'} onPress={() => setCount(count + 1)} />
-
             </TouchableOpacity>
+
+            <CustomButton backgroundColor= "#309c54" label={'Custom Button'} onPress={() => setCount(count + 1)} />
 
         </View>
     );
@@ -54,7 +54,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: "#fff",
-        marginTop: 100
     },
     text: {
         color: 'black',
@@ -66,7 +65,8 @@ const styles = StyleSheet.create({
     },
     textButton: {
         fontSize: 25,
-        backgroundColor: "#7C28AD",
+        // backgroundColor: "#7C28AD",
+        backgroundColor: "#309c54",
         color: "#fff",
         borderRadius: 100,
         textAlign: "center",

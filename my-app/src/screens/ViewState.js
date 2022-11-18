@@ -3,7 +3,9 @@ import { StatusBar } from 'expo-status-bar';
 import { ImageBackground, StyleSheet, Text, View, SafeAreaView, TouchableOpacity } from 'react-native';
 
 
-const ViewState = () => {
+const ViewState = (props) => {
+    
+    console.log("PROPS", props)
 
     const [count, setCount] = useState(0);
 
@@ -80,7 +82,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: "#fff",
-        marginTop: 60,
+        // marginTop: 60,
 
     },
     container2: {
