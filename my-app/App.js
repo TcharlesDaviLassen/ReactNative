@@ -9,6 +9,7 @@ import ViewEfect from './src/screens/ViewEfect.js'
 import ViewImage from './src/screens/ViewImage.js'
 import Dropdown from './src/screens/Picker.js'
 import ViewNav1 from './src/screens/ViewMenuNav1.js'
+import ViewLogin from './src/screens/ViewLogin.js'
 import Picker from './src/screens/Picker.js'
 import ViewTask from './src/screens/ViewTask.js'
 
@@ -22,8 +23,9 @@ export default function App() {
         {/* <Stack.Navigator screenOptions={{headerShown: false}}> */}
         <Stack.Navigator>
           
+
+          <Stack.Screen name="Login" component={ViewLogin}  />
           <Stack.Screen name="MENU" component={ViewNav1}  />
-          
           <Stack.Screen name="ViewState" component={ViewState}  />
           <Stack.Screen name="ViewEfect" component={ViewEfect} />
           <Stack.Screen name="Picker" component={Picker} />

@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image, SafeAreaView, StyleSheet, Dimensions } from 'react-native';
 
-import LogoCrieTi from '../assets/logo-crie-ti'
+import LogoCrieTi from '../assets/logo-crie-ti.svg'
 
 const { width } = Dimensions.get('window');
 const tamanho = width * 1
@@ -28,13 +28,14 @@ const ViewImage = () => {
                     resizeMode='contain'
                     source={{
                         uri: 'https://univates.br/files-bravo/crie-ti/image/logo-crie-ti.png'
-                    }} />
+                    }}
+                />
 
                 <Image
                     // style={{ width: 200, height: 200 }}
                     style={styles.user}
                     resizeMode='contain'
-                    source={require('../../assets/coffeBook.jpg')}
+                    source={require('../assets/coffeBook.jpg')}
                 />
 
                 <LogoCrieTi style={styles.img2} />

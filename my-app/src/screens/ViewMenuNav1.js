@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet, Text, SafeAreaView, Image } from 'react-native';
 import CustomButton from '../components/CustomButton';
 
-const img = require('../../assets/coffeBook.jpg')
+const img = require('../assets/coffeBook.jpg')
 
 // import { Container } from './styles';
 
@@ -76,12 +76,16 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         // backgroundColor: '#ff5100',
-        backgroundColor: '#9d5fee',
+        // backgroundColor: '#9d5fee',
+        backgroundColor: 'black',
+        overflow: 'scroll'
 
     },
     text: {
+        fontSize: 30,
         justifyContent: 'center',
         alignItems: 'center',
+        color: '#fff'
 
     },
     // menu: {
