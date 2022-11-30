@@ -40,14 +40,19 @@ const styles = StyleSheet.create({
         // backgroundColor: "#7C28AD",
         // backgroundColor: "#ff5100",
         // backgroundColor: "#309c54",
+        fontFamily: 'Inter-Bold',
         backgroundColor: "#09f156",
-        color: "#black",
+        // backgroundColor: "#ff6600",
+        // backgroundColor: "red",
+        color: "black",
         borderRadius: 100,
         textAlign: "center",
         height: 50,
         width: widthDefauld,
         paddingTop: 7,
         marginTop: 30,
+        marginLeft: 'auto',
+        marginRight: 'auto',
 
     },
     shadows: {
@@ -58,11 +63,7 @@ const styles = StyleSheet.create({
         },
         shadowOpacity: 0.4,
         shadowRadius: 13,
-
         elevation: 18,
-
-
     }
-
 });
 

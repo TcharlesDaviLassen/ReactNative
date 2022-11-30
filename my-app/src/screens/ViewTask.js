@@ -356,7 +356,6 @@ const ViewTask = () => {
             return dado;
         })
         
-
         console.log("Lista nova", newTaskList);
         setTaskList(newTaskList);
 
@@ -439,7 +438,7 @@ const ViewTask = () => {
 
                             }}
                             // Find more Lottie files at https://lottiefiles.com/featured
-                            source={require('../assets/99987-rckt.json')}
+                            source={require('../animations/99987-rckt.json')}
                         />
                     </View>
             }

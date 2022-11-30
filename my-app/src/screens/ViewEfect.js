@@ -7,6 +7,10 @@ import CustomButton from '../components/CustomButton.js'
 const { width } = Dimensions.get('window');
 const widthDefauld = width * 0.5;
 
+
+console.log('\n')
+console.log("ViewEfect")
+
 console.log("Tamanho da tela =>", width)
 console.log("Tamanho da tela2 =>", widthDefauld)
 
@@ -43,7 +47,7 @@ const ViewEfect = () => {
                 <Text style={styles.textButton}>Clique aqui</Text>
             </TouchableOpacity>
 
-            <CustomButton backgroundColor= "#309c54" label={'Custom Button'} onPress={() => setCount(count + 1)} />
+            <CustomButton backgroundColor= "#09f156" label={'Custom Button'} onPress={() => setCount(count + 1)} />
 
         </View>
     );
